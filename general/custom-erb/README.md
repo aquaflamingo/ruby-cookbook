@@ -29,7 +29,7 @@ class Person
   end
 
   def render
-    erb_template_filepath = File.join(TEMPLATE_FILE_PATH)
+    erb_template_file_path = File.join(TEMPLATE_FILE_PATH)
 
     erb = ERB.new(File.read(erb_template_file_path))
 
