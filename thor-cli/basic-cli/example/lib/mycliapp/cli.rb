@@ -17,6 +17,7 @@ module MyCLIApp
     # Returns version of the cli
     #
     desc "version", "Prints the current version"
+    option :opt_1, required: true, aliases: "-u"
     def version
       puts MyCLIApp::VERSION
     end
